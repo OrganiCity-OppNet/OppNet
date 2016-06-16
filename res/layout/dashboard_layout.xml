@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DashboardLayout"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="11" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/my_phone_graph"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/phoneblue" >
+
+                <TextView
+                    android:id="@+id/my_queue_len"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/my_phone_mac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/transmission_signal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:contentDescription="arrow" />
+
+            <TextView
+                android:id="@+id/byte_sent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/peer_phone_graph"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:id="@+id/peer_queue_len"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/peer_phone_mac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <!-- Credit Button -->
+
+            <Button
+                android:id="@+id/btn_credit"
+                style="@style/DashboardButton"
+                android:drawableTop="@drawable/credit_icon"
+                android:text="Credit" />
+
+            <!-- Info Button -->
+
+            <Button
+                android:id="@+id/btn_info"
+                style="@style/DashboardButton"
+                android:drawableTop="@drawable/info_icon"
+                android:text="Info" />
+            <!-- Settings Button -->
+
+            <Button
+                android:id="@+id/btn_setting"
+                style="@style/DashboardButton"
+                android:drawableTop="@drawable/settings_icon"
+                android:text="Settings" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
