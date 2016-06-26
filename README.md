@@ -45,4 +45,4 @@ The app can be installed either through downloading the [.apk](https://github.co
 
 A screen shot of the application when running is shown here:
 
-<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/res/figures/screenshot.png" width="200">
+<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/res/figures/screenshot.png" width="210">
