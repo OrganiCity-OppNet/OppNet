@@ -12,7 +12,7 @@ The opportunistic network enabler uses smartphones and IoT devices to build a dy
 
 ## Application Architecture
 
-
+![alt tag](https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/res/figures/architecture.png)
 
 ###### Bluetooth
 
