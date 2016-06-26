@@ -42,3 +42,7 @@ The incentivisation algorithm is designed based on the selfish mule protocol int
 ###### Install the app
 
 The app can be installed either through downloading the [.apk](https://github.com/OrganiCity-OppNet/OppNet/blob/master/OppNetDemo1.apk) or compiling on your local machine. 
+
+A screen shot of the application when running is shown here:
+
+![alt tag](https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/res/figures/screenshot.png)
