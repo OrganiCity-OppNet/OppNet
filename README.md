@@ -1,4 +1,4 @@
-# OrganiCity - OppNet Application v0.1
+# OrganiCity - OppNet Application v0.2
 
 ## Introduction
 ###### OrganiCity
@@ -45,8 +45,8 @@ The app can be installed either through downloading the [.apk](https://github.co
 
 Screenshots of the application when running are shown here:
 
-<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-06%5B1%5D.png" width="210">
-<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-10%5B1%5D.png" width="210">
-<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-14%5B1%5D.png" width="210">
-<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-17%5B1%5D.png" width="210">
-<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-24%5B1%5D.png" width="210">
+<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-06%5B1%5D.png" width="200">
+<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-10%5B1%5D.png" width="200">
+<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-14%5B1%5D.png" width="200">
+<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-17%5B1%5D.png" width="200">
+<img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-24%5B1%5D.png" width="200">
