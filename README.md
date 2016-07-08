@@ -57,7 +57,7 @@ Screenshots of the application when running are shown here:
 
 There are five main UI>
 
-1 Experiment UI
-2 Account UI
-3 Network UI
-4 Settings UI
+1. Experiment UI: it shows the list of all available experiments.
+2. Account UI: it enables authorisation of the app.
+3. Network UI: it shows the status of the network.
+4. Settings UI: it enables basic settings for the app.
