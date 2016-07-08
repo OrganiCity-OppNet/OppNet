@@ -55,7 +55,7 @@ Screenshots of the application when running are shown here:
 <img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-17%5B1%5D.png" width="170">
 <img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-24%5B1%5D.png" width="170">
 
-There are five main UI>
+There are five main UI:
 
 1. Experiment UI: it shows the list of all available experiments.
 2. Account UI: it enables authorisation of the app.
