@@ -93,6 +93,7 @@ public class BTScanningAlarm extends BroadcastReceiver {
 			alarmMgr.cancel(alarmIntent);
 		}
 		interval = Constants.SCAN_INTERVAL;
+		
 		alarmMgr.setRepeating(AlarmManager.RTC_WAKEUP, time, interval, alarmIntent);
 	}
 

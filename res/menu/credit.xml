@@ -2,4 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="info.fshi.oppnetdemo1.CreditActivity" >
 
+    <item
+        android:id="@+id/action_authorize"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_authorise"/>
+
 </menu>

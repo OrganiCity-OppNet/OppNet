@@ -4,6 +4,37 @@
     <string name="app_name">OppNet</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="text_authroise">Please note that by authorising the OppNet application to access your account information, OppNet will obtain the permission to send data on behalf of you.</string>
+    <string name="action_authorise">Authorise</string>
+    <string name="pref_sms_storage_title">SMS Storage</string>
+    <string name="nav_btn_setting">Settings</string>
+    <string name="nav_btn_network">Network</string>
+    <string name="nav_btn_experiment">Experiments</string>
+    <string name="nav_btn_account">Account</string>
+    <string name="organicity">OrganiCity</string>
+    <string name="network_received">Received</string>
+    <string name="network_sent">Sent</string>
+    <string name="network_queue_len">Queue</string>
+    <string name="network_credit">Credit</string>
+    <string name="network_peer">Peer</string>
+    <string name="network_wifi">WiFi SSID</string>
+    <string name="network_contact">Contact</string>
+    <string name="settings_bluetooth">Bluetooth</string>
+    <string name="settings_wifi">WiFi</string>
+    <string name="settings_battery">Battery Saving</string>
+    <string name="settings_energy">Energy Aware</string>
+    <string name="settings_current">Current settings</string>
+    <string name="settings_interface">Interfaces</string>
+    <string name="settings_operating">Operating Modes</string>
+    <string name="settings_bluetooth_instruction">Turn on and off Bluetooth interface, if it is turned off, the application will not function properly and it will be shut down.</string>
+    <string name="settings_wifi_instruction">Turn on and off WiFi interface, if it is turned off, the device will not be able to send data to the cloud, but it can still relay data if Bluetooth is enabled.</string>
+    <string name="settings_battery_instruction">Turn on and off to enable battery savings operation, it will try to reduce certain operations to save battery power.</string>
+	<string name="settings_energy_awareness_instruction">Turn on and off to enable energy awareness operation, it will make routing decisions based on device\'s and peer\'s battery energy.(Function not yet avaiable)</string>
+    <string name="experiment">Experiment</string>
+    <string name="experiment_dashboard">Dashboard</string>
+	
     <color name="white">#FFFFFF</color>
+    <color name="organicity">#EF4070</color>
+    <color name="transparent">#00000000</color>
 
 </resources>

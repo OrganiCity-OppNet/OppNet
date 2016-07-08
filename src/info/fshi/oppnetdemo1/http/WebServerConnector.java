@@ -1,6 +1,5 @@
 package info.fshi.oppnetdemo1.http;
 
-import info.fshi.oppnetdemo1.CreditActivity;
 import info.fshi.oppnetdemo1.data.DataManager;
 import info.fshi.oppnetdemo1.data.QueueManager;
 
@@ -152,7 +151,7 @@ public class WebServerConnector extends BroadcastReceiver{
 			
 			try{
 				Log.d(TAG, serverUrl + entityId);
-				DataManager.getInstance(mContext).saveLog(serverUrl + entityId);
+//				DataManager.getInstance(mContext).saveLog(serverUrl + entityId);
 				
 				url = new URL(serverUrl + entityId);
 				connection = (HttpURLConnection)url.openConnection();
@@ -195,7 +194,7 @@ public class WebServerConnector extends BroadcastReceiver{
 		if (mWifi.isConnected()) {
 			// Do whatever
 			Log.d(TAG, "wifi connected");
-			DataManager.getInstance(mContext).saveLog("wifi connected");
+//			DataManager.getInstance(mContext).saveLog("wifi connected");
 			
 			
 			serverAvailable = true;
@@ -213,7 +212,7 @@ public class WebServerConnector extends BroadcastReceiver{
 					Log.d(TAG, "update name to " + String.valueOf(QueueManager.getInstance(mContext).getQueueLength()));
 					DataManager.getInstance(mContext).saveLog("update name to " + String.valueOf(QueueManager.getInstance(mContext).getQueueLength()));
 					
-					CreditActivity.txMyQueueLen.setText(String.valueOf(QueueManager.getInstance(mContext).getQueueLength()));
+//					MainActivity.txMyQueueLen.setText(String.valueOf(QueueManager.getInstance(mContext).getQueueLength()));
 					updatedTime = currentTime;
 				}
 			}

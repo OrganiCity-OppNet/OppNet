@@ -16,7 +16,6 @@ public class BTController {
 	private Messenger mMessenger;
 
 	public BTController(Handler btHandler){
-
 		// init bt utility
 		mBTHelper = BTCom.getObject();
 		mMessenger = new Messenger(btHandler);

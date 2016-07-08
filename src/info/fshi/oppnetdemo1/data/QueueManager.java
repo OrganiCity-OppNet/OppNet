@@ -21,8 +21,11 @@ public class QueueManager {
 	public long sensorTimestamp = 0;
 	public long sinkTimestamp = 0;
 
-	public static int packetsReceived = 0;
-	public static int packetsSent = 0;
+	public int packetsReceived = 0;
+	public int packetsSent = 0;
+	
+	public int contacts = 0;
+	public int peers = 0;
 	
 	// queue is a json with format {sequence of ids : content}
 

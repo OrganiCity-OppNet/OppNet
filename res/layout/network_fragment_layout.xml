@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DashboardLayout"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:contentDescription="@string/network_received"
+            android:paddingLeft="15dp"
+            android:scaleType="center"
+            android:src="@drawable/received_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_received"
+            android:textSize="12sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/network_received"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_received"
+            android:textColor="#ef4070"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:contentDescription="@string/network_sent"
+            android:paddingLeft="15dp"
+            android:scaleType="center"
+            android:src="@drawable/sent_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_sent"
+            android:textSize="12sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/network_sent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_sent"
+            android:textColor="#ef4070"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:contentDescription="@string/network_queue_len"
+            android:paddingLeft="15dp"
+            android:scaleType="center"
+            android:src="@drawable/queue_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_queue_len"
+            android:textSize="12sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/network_queue_len"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_queue_len"
+            android:textColor="#ef4070"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:contentDescription="@string/network_credit"
+            android:paddingLeft="15dp"
+            android:scaleType="center"
+            android:src="@drawable/credit_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_credit"
+            android:textSize="12sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/network_credit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_credit"
+            android:textColor="#ef4070"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:contentDescription="@string/network_credit"
+            android:paddingLeft="15dp"
+            android:scaleType="center"
+            android:src="@drawable/peer_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_peer"
+            android:textSize="12sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/network_peer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_peer"
+            android:textColor="#ef4070"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:contentDescription="@string/network_wifi"
+            android:paddingLeft="15dp"
+            android:scaleType="center"
+            android:src="@drawable/wifi_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_wifi"
+            android:textSize="12sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/network_wifi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/network_wifi"
+            android:textColor="#ef4070"
+            android:textSize="14sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

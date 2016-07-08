@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context="info.fshi.oppnetdemo.MainActivity" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <include layout="@layout/fragment_layout" />
+    <include layout="@layout/nav_layout" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActionBarCompat" >
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="@string/experiment"
+        android:textColor="@color/white"
+        android:textSize="20sp" >
+    </TextView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:contentDescription="@string/organicity"
+        android:paddingRight="10dp"
+        android:scaleType="center"
+        android:src="@drawable/organicity_logo" />
+
+</LinearLayout>

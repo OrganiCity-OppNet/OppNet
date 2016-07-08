@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NavBar"
+    android:layout_alignParentBottom="true" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/dividerHorizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="20" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Experiment Button -->
+
+        <Button
+            android:id="@+id/nav_btn_experiment"
+            style="@style/NavButton"
+            android:drawableTop="@drawable/experiment_icon_selected"
+            android:text="@string/nav_btn_experiment" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <!-- Account Button -->
+
+        <Button
+            android:id="@+id/nav_btn_account"
+            style="@style/NavButton"
+            android:drawableTop="@drawable/account_icon"
+            android:text="@string/nav_btn_account" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <!-- Network Button -->
+
+        <Button
+            android:id="@+id/nav_btn_network"
+            style="@style/NavButton"
+            android:drawableTop="@drawable/network_icon"
+            android:text="@string/nav_btn_network" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <!-- Settings Button -->
+
+        <Button
+            android:id="@+id/nav_btn_setting"
+            style="@style/NavButton"
+            android:drawableTop="@drawable/settings_icon"
+            android:text="@string/nav_btn_setting" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>
