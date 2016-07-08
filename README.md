@@ -34,6 +34,10 @@ Device manager handles the registration of the device by communicating with Orio
 
 It schedules the bluetooth scanning and handles existing communication tasks. It uses callbacks to send data or response to the data manager to help it maintain data record. 
 
+###### Experiment manager
+
+Experiment manager manages the interaction between oppnet and OC experiment platform. It will be developed when the experiment platform comes out.
+
 ###### Incentivisation
 The incentivisation algorithm is designed based on the selfish mule protocol introduced in this [paper](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwix3qCktMbNAhXFDsAKHWeXCUYQFggfMAA&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6517116&usg=AFQjCNGuwb4q2gVJcBC2ildR4pA_usTD1A&sig2=SUX10aK4Z4zcO1hJ1_3rzA), which is based on a Backpressure routing protocol. Incentivisation is calculated locally and then relevant data will be transmitted to context broker during the experiment. 
 
@@ -50,3 +54,10 @@ Screenshots of the application when running are shown here:
 <img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-14%5B1%5D.png" width="170">
 <img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-17%5B1%5D.png" width="170">
 <img src="https://raw.githubusercontent.com/OrganiCity-OppNet/OppNet/master/Screenshot_2016-07-08-15-14-24%5B1%5D.png" width="170">
+
+There are five main UI>
+
+1 Experiment UI
+2 Account UI
+3 Network UI
+4 Settings UI
